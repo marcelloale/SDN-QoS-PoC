@@ -8,10 +8,10 @@ fi
 flow="table=0,ip,ip_src=$1,ip_dst=$2"
 
 if [ "$3" == "hi" ]; then
-    echo "sudo ovs-ofctl -OOpenFlow13 add-flow core2 priority=10,idle_timeout=60,$flow,actions=set_queue:1,output:2"
-    sudo ovs-ofctl -OOpenFlow13 add-flow core2 priority=10,idle_timeout=60,$flow,actions=set_queue:1,output:2
+    echo "sudo ovs-ofctl -O OpenFlow10 add-flow core2 priority=10,idle_timeout=60,$flow,actions=set_queue:1,output:2"
+    sudo ovs-ofctl -OOpenFlow10 add-flow core2 priority=10,idle_timeout=60,$flow,actions=set_queue:1,output:2
 elif [ "$3" == "lo" ]; then
-    echo "sudo ovs-ofctl -OOpenFlow13 del-flows core2 $flow"
-    sudo ovs-ofctl -OOpenFlow13 del-flows core2 $flow
+    echo "sudo ovs-ofctl -O OpenFlow10 del-flows core2 $flow"
+    sudo ovs-ofctl -OOpenFlow10 del-flows core2 $flow
 
 fi
