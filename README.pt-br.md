@@ -1,6 +1,7 @@
 # Prova de Conceito de QoS do OpenFlow
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 
-Este código fornece uma rede emulada para testar o QoS de Rede Programável através de Filas do OpenFlow 1.0.
+Este código fornece uma rede emulada para verificar a aplicação de QoS aos fluxos através das filas do OpenFlow 1.0.
 
 ## Instruções
 
