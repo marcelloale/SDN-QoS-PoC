@@ -17,8 +17,7 @@ As seguintes instruções são projetadas para funcionar em um Ubuntu 16.04. Dev
 Para instalar o emulador de rede mininet modificado (se tiver alguma duvida sobre o [install.sh do Mininet](https://github.com/marcelloale/SDN-QoS-PoC/blob/master/mininet/INSTALL)):
 
 ```bash
-cd mininet
-./util/install.sh -n
+./mininet/util/install.sh -n
 ``` 
 
 Para instalar o openvswitch-switch:
