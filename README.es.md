@@ -1,4 +1,5 @@
 # Proof of Concept de la aplicación de QoS en redes SDN
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 
 Este código permite utilizar el emulador de redes mininet para comprobar la aplicación de QoS a flujos a través de las queue de OpenFlow 1.3
 
