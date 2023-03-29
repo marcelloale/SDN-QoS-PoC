@@ -1,6 +1,6 @@
 # OpenFlow QoS Proof of Concept
 
-This code provides a emulated network to test Programable Network QoS through OpenFlow 1.3 Queues.
+This code provides a emulated network to test Programable Network QoS through OpenFlow 1.0 Queues.
 
 ## Instructions
 
@@ -53,7 +53,7 @@ sudo python upgrade_QoS.py
 This command opens three terminals and two vlc clients.
 
 
-We use the [big buck bunny MP4+H264 FullHD Video](http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4) in this proof of concept. 
+We use the [video-small.3gp](http://mirrors.standaloneinstaller.com/video-sample/P6090053.3gp) in this proof of concept. 
 
 We start the Video Stream emission running in the "RTP Stream Emiter" terminal the following command:
 
