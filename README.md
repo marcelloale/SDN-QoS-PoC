@@ -1,3 +1,7 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/marcelloale/SDN-QoS-PoC/blob/master/README.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/marcelloale/SDN-QoS-PoC/blob/master/README.pt-br.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/marcelloale/SDN-QoS-PoC/blob/master/README.es.md)
+
 # OpenFlow QoS Proof of Concept
 
 This code provides a emulated network to test Programable Network QoS through OpenFlow 1.0 Queues.
